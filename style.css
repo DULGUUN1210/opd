@@ -1,0 +1,82 @@
+.menu{
+	background-color:red;
+	height:100vh;
+	padding:25px;
+	color:#fff;
+	position:sticky;
+	top:0;
+}
+.menu img{
+	width:100px;
+	margin-left:80px;
+	background-color:#e1e1e1;
+	border-radius:50%;
+	padding:6px;
+}
+.menu h3{
+	text-align:center;
+}
+
+.menu ul{
+	margin-bottom:30px;
+	list-style-type:none;
+}
+.menu ul li{
+	margin-bottom:20px
+}
+.menu ul li a{
+	color:#fff;
+	text-decoration:none;
+	font-size:22px;
+}
+.home,.project,.about,.contact{
+	width:100%;
+	height:100vh;
+}
+
+.home img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+
+
+}
+.project .card a{
+	width:100%;
+	height:240px;
+}
+.project .card img{
+	width:100%;
+	height:240px !important;
+	object-fit:cover;
+	margin-bottom:10px
+}
+.project .card{
+	margin:20px 0;
+	padding:10px;
+}
+.about{
+	
+}
+.contact{
+	margin-top:200px;
+}
+.contact input{
+	width:100%;
+	margin-bottom:20px;
+	border:1px solid #dee2e6;
+	margin-top:20px
+}
+.contact .info{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding:20px;
+}
+.contact form{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding:20px
+}
+.about img{
+	width:200px;
+	height: 250px;
+}
